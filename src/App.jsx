@@ -1,11 +1,13 @@
 import "./App.css";
 import "./index.css";
-import Counter from "./comps/Counter";
+import Intro from "./comps/Intro";
+import Header from "./comps/Header";
 
 function App() {
   return (
-    <div className="App">
-      <Counter />
+    <div className="bg-slate-900">
+      <Header />
+      <Intro />
     </div>
   );
 }
