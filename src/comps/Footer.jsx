@@ -1,26 +1,35 @@
 export default function Footer() {
   return (
-    <footer>
-      <a href="mailto:websebarz@gmail.com" className="footer__link">
+    <footer className="bg-neutral-900 text-orange-600 p-4">
+      <a href="mailto:websebarz@gmail.com" className="text-2xl font-bold">
         websebarz@gmail.com
       </a>
-      <ul className="social-list">
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://codepen.io">
-            a
+      <ul className="flex justify-center mt-2 text-2xl">
+        <li className="p-2">
+          <a
+            className="social-list__link"
+            href="https://linkedin.com/in/websebarz"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
           </a>
         </li>
-        <li className="social-list__item">
-          b<a className="social-list__link" href="http://dribbble.com"></a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://twitter.com">
-            c
+        <li className="ml-2 p-2">
+          <a
+            className="social-list__link"
+            href="https://twitter.com/websebarz"
+            target="_blank"
+          >
+            <i className="fab fa-twitter"></i>
           </a>
         </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
-            d
+        <li className="ml-2 p-2">
+          <a
+            className="social-list__link"
+            href="https://github.com/websebarz"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
           </a>
         </li>
       </ul>
