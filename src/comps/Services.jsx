@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <section
-      className="bg-neutral-600 bg-[url('./imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:min-h-[50vh] flex flex-col items-center justify-center gap-4"
+      className="bg-neutral-600 bg-[url('../imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:min-h-[50vh] flex flex-col items-center justify-center gap-4"
       id="services"
     >
       <h2 className="mb-1 text-teal-400 text-4xl sm:text-6xl font-bold">
