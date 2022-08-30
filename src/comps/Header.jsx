@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="public/imgs/devjane.png" alt="" />
+        <img src="./imgs/devjane.png" alt="" />
       </div>
       <button className="nav-toggle" aria-label="toggle navigation">
         <span className="hamburger"></span>

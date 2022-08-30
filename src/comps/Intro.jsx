@@ -7,12 +7,12 @@ export default function Intro() {
       <h1 className="text-5xl text-teal-400 font-light">
         Hi, I am <strong className="block font-bold">Seb Arz</strong>
       </h1>
-      <p className="sm:absolute -left-2 w-full font-mono p-1 text-xl mt-[.25em] bg-orange-600 self-start text-right col-span-full row-start-2">
+      <p className="mt-4 mb-4 sm:absolute -left-6 w-full font-mono p-2 text-xl mt-[.25em] bg-orange-600 self-start text-right col-span-full row-start-2">
         front end developer
       </p>
       <img
         className="sm:relative w-min row-span-full"
-        src="public/imgs/current-profile.jpg"
+        src="./imgs/current-profile.jpg"
         alt="a picture of Seb Arz"
       />
     </section>
