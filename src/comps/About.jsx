@@ -1,15 +1,29 @@
 export default function About() {
   return (
-    <section className="about-me" id="about">
-      <h2 className="section__title section__title--about">Who I am</h2>
-      <p className="section__subtitle section__subtitle--about"></p>
+    <section
+      className="flex flex-col justify-center items-center justify-evenly p-2 sm:flex min-h-[50vh]"
+      id="about"
+    >
+      <h2 class="mb-1 text-teal-400 text-4xl sm:text-6xl font-bold">
+        Who I am
+      </h2>
+      <p class="sm:w-fit font-mono p-2 text-xl mt-[.25em] bg-orange-600 self-center">
+        Designer & developer based out of Mexico City
+      </p>
 
-      <div className="about-me__body">
-        <p></p>
-        <p></p>
+      <div class="mt-2 sm:flex">
+        <p className="mb-2 text-white">
+          Front End developer from Mexico City (Relocation/ Remote possible).
+          I'm interested in teams valuing quality, clean code principles &
+          testing.
+        </p>
+        <p className="text-white">
+          Front End: JavaScript(ES6+), TypeScript, React JS, Tailwindcss, HTML5,
+          CSS3, JSON, AJAX, Bootstrap. Principles & methodologies: Agile, Scrum,
+          OOP, Test Driven Development, Mobile First Design & Responsive Design.
+          Testing & other: Git, Docker, NPM.
+        </p>
       </div>
-
-      <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" />
     </section>
   );
 }

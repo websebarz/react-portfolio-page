@@ -3,6 +3,7 @@ import "./index.css";
 import Intro from "./comps/Intro";
 import Header from "./comps/Header";
 import Services from "./comps/Services";
+import About from "./comps/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Intro />
       <Services />
+      <About />
     </div>
   );
 }
