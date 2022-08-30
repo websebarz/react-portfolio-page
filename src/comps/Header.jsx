@@ -1,11 +1,11 @@
 export default function Header() {
   return (
-    <header>
-      <div className="logo">
-        <img src="./imgs/devjane.png" alt="" />
+    <header className="flex p-4 justify-between">
+      <div>
+        <img src="./imgs/webseb-logo.png" />
       </div>
       <button className="nav-toggle" aria-label="toggle navigation">
-        <span className="hamburger"></span>
+        <span className="hamburger">OK</span>
       </button>
       <nav className="hidden">
         <ul className="nav__list">
