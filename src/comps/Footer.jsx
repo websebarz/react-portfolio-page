@@ -5,7 +5,7 @@ export default function Footer() {
         websebarz@gmail.com
       </a>
       <ul className="flex justify-center mt-2 text-2xl">
-        <li className="p-2">
+        <li className="p-2 hover:scale-125 duration-200">
           <a
             className="social-list__link"
             href="https://linkedin.com/in/websebarz"
@@ -14,7 +14,7 @@ export default function Footer() {
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-        <li className="ml-2 p-2">
+        <li className="ml-2 p-2 hover:scale-125 duration-200">
           <a
             className="social-list__link"
             href="https://twitter.com/websebarz"
@@ -23,7 +23,7 @@ export default function Footer() {
             <i className="fab fa-twitter"></i>
           </a>
         </li>
-        <li className="ml-2 p-2">
+        <li className="ml-2 p-2 hover:scale-125 duration-200">
           <a
             className="social-list__link"
             href="https://github.com/websebarz"
