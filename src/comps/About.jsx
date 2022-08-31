@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className="flex flex-col justify-center items-center justify-evenly p-2 sm:flex min-h-[50vh] max-w-screen-xl xl:max-w-full mr-autom ml-auto"
+      className="h-[50vh] flex flex-col justify-center items-center justify-evenly p-2 sm:flex min-h-[50vh] max-w-screen-xl xl:max-w-full mr-autom ml-auto"
       id="about"
     >
       <h2 class="mb-1 text-teal-400 text-4xl sm:text-6xl font-bold">
