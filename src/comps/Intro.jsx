@@ -7,7 +7,7 @@ export default function Intro() {
       <h1 className="text-5xl text-teal-400 font-light sm:col-start-2 row-start-1 self-center">
         Hi, I am <strong className="block font-bold">Seb Arz</strong>
       </h1>
-      <p className="mt-4 mb-4 sm:absolute -left-6 w-full font-mono p-2 text-xl mt-[.25em] bg-orange-600 self-start text-right col-span-full row-start-1">
+      <p className="font-normal mt-4 mb-4 sm:absolute -left-6 w-full font-mono p-2 text-xl mt-[.25em] bg-orange-600 self-start text-right col-span-full row-start-1">
         front end developer
       </p>
       <img

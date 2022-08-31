@@ -1,42 +1,37 @@
 export default function Services() {
   return (
     <section
-      className="h-[100vh] bg-neutral-600 bg-[url('../imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:min-h-[50vh] flex flex-col items-center justify-center gap-4"
+      className="flex flex-col h-[100vh] bg-neutral-600 bg-[url('../imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:flex-col min-h-[50vh] items-center justify-center gap-4 lg:flex-row"
       id="services"
     >
-      <h2 className="mb-1 text-teal-400 text-4xl sm:text-6xl font-bold">
+      <h2 className="text-teal-400 text-4xl sm:text-6xl font-bold">
         What I do
       </h2>
-      <div className="max-w-[500px] sm:flex max-w-[100%]">
-        <div className="service">
+      <div className="max-w-[500px] sm: max-w-md lg:flex max-w-4xl">
+        <div className="mt-4">
           <h3 className="text-xl text-white sm:text-2xl">
             Design + Development
           </h3>
           <p className="text-white sm:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Object oriented front end developer with a Reposive & Mobile First
+            approach for design. I have a passion for detail and a good taste
+            for colors and typography.
           </p>
         </div>
 
-        <div className="service">
+        <div className="mt-4">
           <h3 className="text-xl text-white sm:text-2xl">React JS</h3>
           <p className="text-white sm:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            React developer with one year of experience building React apps with
+            Vite+Tasilwindcss. React Router, React Query & Redux.
           </p>
         </div>
 
-        <div className="service">
+        <div className="mt-4">
           <h3 className="text-xl text-white sm:text-2xl">WordPress</h3>
           <p className="text-white sm:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            WordPress + Elementor previous experience building custom designs
+            por personal and freelance projects.
           </p>
         </div>
       </div>
