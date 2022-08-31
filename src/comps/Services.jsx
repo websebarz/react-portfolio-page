@@ -12,7 +12,7 @@ export default function Services() {
           <h3 className="text-xl text-white sm:text-2xl">
             Design + Development
           </h3>
-          <p className="text-white">
+          <p className="text-white sm:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -22,7 +22,7 @@ export default function Services() {
 
         <div className="service">
           <h3 className="text-xl text-white sm:text-2xl">React JS</h3>
-          <p className="text-white">
+          <p className="text-white sm:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -32,7 +32,7 @@ export default function Services() {
 
         <div className="service">
           <h3 className="text-xl text-white sm:text-2xl">WordPress</h3>
-          <p className="text-white">
+          <p className="text-white sm:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className="flex flex-col justify-center items-center justify-evenly p-2 sm:flex min-h-[50vh]"
+      className="flex flex-col justify-center items-center justify-evenly p-2 sm:flex min-h-[50vh] max-w-screen-xl xl:max-w-full mr-autom ml-auto"
       id="about"
     >
       <h2 class="mb-1 text-teal-400 text-4xl sm:text-6xl font-bold">
@@ -12,12 +12,12 @@ export default function About() {
       </p>
 
       <div class="mt-2 sm:flex">
-        <p className="mb-2 text-white">
+        <p className="mb-2 text-white sm:text-xl">
           Front End developer from Mexico City (Relocation/ Remote possible).
           I'm interested in teams valuing quality, clean code principles &
           testing.
         </p>
-        <p className="text-white">
+        <p className="text-white sm:text-xl">
           Front End: JavaScript(ES6+), TypeScript, React JS, Tailwindcss, HTML5,
           CSS3, JSON, AJAX, Bootstrap. Principles & methodologies: Agile, Scrum,
           OOP, Test Driven Development, Mobile First Design & Responsive Design.
