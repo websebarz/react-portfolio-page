@@ -13,7 +13,7 @@ export default function Services() {
             Design + Development
           </h3>
           <p className="text-white sm:text-xl">
-            Object oriented front end developer with a Reposive & Mobile First
+            Object oriented front end developer with a Responsive & Mobile First
             approach for design. I have a passion for detail and a good taste
             for colors and typography.
           </p>
@@ -23,7 +23,7 @@ export default function Services() {
           <h3 className="text-xl text-white sm:text-2xl">React JS</h3>
           <p className="text-white sm:text-xl">
             React developer with one year of experience building React apps with
-            Vite+Tasilwindcss. React Router, React Query & Redux.
+            Vite+Tailwindcss. React Router, React Query & Redux.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function Services() {
           <h3 className="text-xl text-white sm:text-2xl">WordPress</h3>
           <p className="text-white sm:text-xl">
             WordPress + Elementor previous experience building custom designs
-            por personal and freelance projects.
+            for personal and freelance projects.
           </p>
         </div>
       </div>
