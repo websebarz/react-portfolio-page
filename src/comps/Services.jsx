@@ -1,13 +1,13 @@
 export default function Services() {
   return (
     <section
-      className="flex flex-col h-[100vh] bg-neutral-600 bg-[url('../imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:flex-col min-h-[50vh] items-center justify-center gap-4 lg:flex-row"
+      className="flex flex-col h-[100vh] bg-neutral-600 bg-[url('../imgs/services-bg.jpg')] bg-cover bg-blend-multiply text-center p-4 leading-relaxed sm:flex-col min-h-[50vh] items-center justify-center gap-4"
       id="services"
     >
       <h2 className="text-teal-400 text-4xl sm:text-6xl font-bold">
         What I do
       </h2>
-      <div className="max-w-[500px] sm: max-w-md lg:flex max-w-4xl">
+      <div className="max-w-[500px] sm: max-w-md lg:flex flex-col max-w-4xl">
         <div className="mt-4">
           <h3 className="text-xl text-white sm:text-2xl">
             Design + Development

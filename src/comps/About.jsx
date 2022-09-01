@@ -11,7 +11,7 @@ export default function About() {
         Designer & developer based out of Mexico City
       </p>
 
-      <div className="mt-2 sm:flex lg:flex-col">
+      <div className="mt-2 sm:flex flex-col lg:flex-col">
         <p className="mb-2 text-white sm:text-xl">
           Front End developer from Mexico City (Relocation/ Remote possible).
           I'm interested in teams valuing quality, clean code principles &
